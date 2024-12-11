@@ -1,0 +1,31 @@
+{
+  "name": "mevn-curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.2.1",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^3.1.7",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
